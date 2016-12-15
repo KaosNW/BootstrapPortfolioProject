@@ -1,7 +1,7 @@
 {
   "name": "project-html-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to the Bootstrap Portfolio Project! For this project, you'll be creating a personal web page to show off your work. We will test your HTML knowledge and then it will be up to you to use CSS to style your own page and make it unique.",
   "private": true,
   "scripts": {
     "start": "browser-sync start --server ./src --files ./src",
@@ -22,6 +22,20 @@
     "npm": ">=2.15"
   },
   "babel": {
-    "presets": ["es2015"]
-  }
+    "presets": [
+      "es2015"
+    ]
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaosNW/BootstrapPortfolioProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KaosNW/BootstrapPortfolioProject/issues"
+  },
+  "homepage": "https://github.com/KaosNW/BootstrapPortfolioProject#readme"
 }
